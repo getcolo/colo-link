@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save colo-link
+yarn add @getcolo/colo-link
 ```
 
 ## Usage
