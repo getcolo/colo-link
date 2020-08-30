@@ -29,8 +29,26 @@ const App = () => {
     />
   )
 }
-
 ```
+
+## Component Reference
+
+`ColoLink`
+
+(without using https://getcolo.dev service)
+
+- `integration` (required) - the provider you're integrating with e.g. 'slack'
+- `userId` (required) - the user id you're linking the request with (maps to the `state` value, which you can query on your callback handler to associate the retrieved access token with the same `userId`)
+- `clientId` (required) - your OAuth app's client_id 
+- `redirectUrl` (required) - the url of the callback handler i.e. where the user will be directed to after the authorization screen
+- `scope` (required) - the scopes your app is requesting that reflects the operations it will be able to perform against the end user. 
+
+(with https://getcolo.dev service)
+
+- `integration` (required) - the provider you're integrating with e.g. 'slack'
+- `userId` (required) - the user id you're linking the request with (maps to the `state` value, which you can query on your callback handler to associate the retrieved access token with the same `userId`)
+- `coloApiKey` (required) - the api key generated from your Colo application
+
 
 ## License
 
