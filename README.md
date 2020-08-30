@@ -15,8 +15,8 @@ yarn add @getcolo/colo-link
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'colo-link'
-import 'colo-link/dist/index.css'
+import ColoLink from '@getcolo/colo-link'
+import '@getcolo/colo-link/dist/index.css'
 
 const App = () => {
   return (
