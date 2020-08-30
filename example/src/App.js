@@ -1,10 +1,18 @@
 import React from 'react'
 
-import { ExampleComponent } from 'colo-link'
+import { ColoLink } from 'colo-link'
 import 'colo-link/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <ColoLink
+      scope={'calls:read calls:write'}
+      integration={'slack'}
+      userId={'shreyas.jaganmohan@gmail.com'}
+      clientId={'1317404487779.1302461420935'}
+      redirectUrl={'http://localhost:3000'}
+    />
+  )
 }
 
 export default App
