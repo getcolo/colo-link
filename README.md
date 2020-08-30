@@ -34,4 +34,4 @@ const App = () => {
 
 ## License
 
-MIT © [drshrey](https://github.com/drshrey)
+MIT © [getcolo](https://github.com/getcolo)
