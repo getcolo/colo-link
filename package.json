@@ -1,6 +1,6 @@
 {
   "name": "@getcolo/colo-link",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "A library that generates a button for directing the user to the appropriate authorization url for the OAuth provider. Its purpose is to abstract away messy OAuth logic for React apps.",
   "author": "drshrey",
   "license": "MIT",

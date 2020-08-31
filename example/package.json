@@ -10,6 +10,8 @@
     "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
   },
   "dependencies": {
+    "@getcolo/colo-link": "^1.0.3",
+    "@getcolo/middleware": "^1.0.0",
     "babel-loader": "^8.1.0",
     "colo-link": "file:..",
     "react": "file:../node_modules/react",
